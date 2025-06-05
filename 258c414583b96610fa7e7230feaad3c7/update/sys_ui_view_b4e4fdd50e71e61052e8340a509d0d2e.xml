@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>workspace-test-script-0</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 02:23:00</sys_created_on>
+        <sys_id>b4e4fdd50e71e61052e8340a509d0d2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workspace Test script 0</sys_name>
+        <sys_package display_value="Test scripting" source="x_1755686_test_scr">258c414583b96610fa7e7230feaad3c7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</sys_scope>
+        <sys_update_name>sys_ui_view_b4e4fdd50e71e61052e8340a509d0d2e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 02:23:00</sys_updated_on>
+        <title>Workspace Test script 0</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>listConfigId</name>
+        <page display_value="Test script">c9e4fdd55871e61031ba8e949fc01536</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 02:22:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>34e4fdd57571e610f7b73afc06d6ce1a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>listConfigId</sys_name>
+        <sys_package display_value="Test scripting" source="x_1755686_test_scr">258c414583b96610fa7e7230feaad3c7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</sys_scope>
+        <sys_update_name>sys_ux_page_property_34e4fdd57571e610f7b73afc06d6ce1a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 02:23:04</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1755686_test_scr.c9e4fdd55871e61031ba8e949fc01536.root.global.listConfigId</unique_name>
+        <value>16e431198371e610fa7e7230feaad36e</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=34e4fdd57571e610f7b73afc06d6ce1a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</application>
+        <file_path/>
+        <instance_id>9863785debec6e5456eafddacad0cd61</instance_id>
+        <instance_name>dev311432</instance_name>
+        <name>sys_ux_page_property_34e4fdd57571e610f7b73afc06d6ce1a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>listConfigId</name><page display_value="Test script">c9e4fdd55871e61031ba8e949fc01536</page><required_translations>[]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-28 02:22:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>34e4fdd57571e610f7b73afc06d6ce1a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>listConfigId</sys_name><sys_package display_value="Test scripting" source="x_1755686_test_scr">258c414583b96610fa7e7230feaad3c7</sys_package><sys_policy/><sys_scope display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</sys_scope><sys_update_name>sys_ux_page_property_34e4fdd57571e610f7b73afc06d6ce1a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-28 02:23:04</sys_updated_on><type>string</type><unique_name>x_1755686_test_scr.c9e4fdd55871e61031ba8e949fc01536.root.global.listConfigId</unique_name><value>16e431198371e610fa7e7230feaad36e</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=34e4fdd57571e610f7b73afc06d6ce1a"/></record_update>]]></payload>
+        <payload_hash>-1291099261</payload_hash>
+        <record_name>listConfigId</record_name>
+        <reverted_from/>
+        <source>e18c414583b96610fa7e7230feaad3cc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 02:23:04</sys_created_on>
+        <sys_id>5ae431198371e610fa7e7230feaad3cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19714b34ca60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 02:23:04</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>12e43119c071e61071ac85f3795af9cd</update_guid>
+        <update_guid_history>12e43119c071e61071ac85f3795af9cd:-1291099261,d6e43119e571e610df8badc21a20cacb:-503901759</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 02:32:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>ae1ad881080544c3a45711ff37b70af9</sys_id>
+        <sys_metadata>34e4fdd57571e610f7b73afc06d6ce1a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>listConfigId</sys_name>
+        <sys_package display_value="Test scripting" source="x_1755686_test_scr">258c414583b96610fa7e7230feaad3c7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</sys_scope>
+        <sys_scope_delete display_value="">02c4d586cb6c4618907908bcf5774b90</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_34e4fdd57571e610f7b73afc06d6ce1a</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_34e4fdd57571e610f7b73afc06d6ce1a">5ae431198371e610fa7e7230feaad3cd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 02:32:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

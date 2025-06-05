@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Request script">b11b13d98379e610fa7e7230feaad308</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 09:50:11</sys_created_on>
+        <sys_id>844b53d98379e610fa7e7230feaad336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Request script</sys_name>
+        <sys_package display_value="Test scripting" source="x_1755686_test_scr">258c414583b96610fa7e7230feaad3c7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_844b53d98379e610fa7e7230feaad336</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 09:50:11</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</application>
+        <file_path/>
+        <instance_id>9863785debec6e5456eafddacad0cd61</instance_id>
+        <instance_name>dev311432</instance_name>
+        <name>sc_cat_item_catalog_844b53d98379e610fa7e7230feaad336</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Request script">b11b13d98379e610fa7e7230feaad308</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-28 09:50:11</sys_created_on><sys_id>844b53d98379e610fa7e7230feaad336</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Request script</sys_name><sys_package display_value="Test scripting" source="x_1755686_test_scr">258c414583b96610fa7e7230feaad3c7</sys_package><sys_policy/><sys_scope display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</sys_scope><sys_update_name>sc_cat_item_catalog_844b53d98379e610fa7e7230feaad336</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-28 09:50:11</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1613450821</payload_hash>
+        <record_name>Service Catalog.Request script</record_name>
+        <reverted_from/>
+        <source>e18c414583b96610fa7e7230feaad3cc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 09:50:11</sys_created_on>
+        <sys_id>884bd3d98379e610fa7e7230feaad382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197164ca70e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 09:50:11</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>8c4bd3d9a479e6108d4162caaecb8081</update_guid>
+        <update_guid_history>8c4bd3d9a479e6108d4162caaecb8081:1613450821</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Request script">d48e2ca183312a10fa7e7230feaad3e9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 15:53:56</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>059c27389e1a46808063f3b760979000</sys_id>
+        <sys_metadata>844b53d98379e610fa7e7230feaad336</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Request script</sys_name>
+        <sys_package display_value="Test scripting" source="x_1755686_test_scr">258c414583b96610fa7e7230feaad3c7</sys_package>
+        <sys_parent display_value="">b11b13d98379e610fa7e7230feaad308</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</sys_scope>
+        <sys_scope_delete display_value="">02c4d586cb6c4618907908bcf5774b90</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_844b53d98379e610fa7e7230feaad336</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_844b53d98379e610fa7e7230feaad336">884bd3d98379e610fa7e7230feaad382</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 15:53:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

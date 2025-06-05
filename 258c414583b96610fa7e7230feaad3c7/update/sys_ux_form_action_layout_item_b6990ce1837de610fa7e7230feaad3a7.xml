@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout_item">
+    <sys_ux_form_action_layout_item action="INSERT_OR_UPDATE">
+        <action display_value="Download PDF">7e990ce1837de610fa7e7230feaad3a4</action>
+        <active>true</active>
+        <animate_icon>false</animate_icon>
+        <color>secondary</color>
+        <description/>
+        <icon/>
+        <item_type>action</item_type>
+        <label>Download PDF</label>
+        <layout_group/>
+        <name>Download PDF</name>
+        <order>100</order>
+        <overflow>false</overflow>
+        <sys_class_name>sys_ux_form_action_layout_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 13:12:43</sys_created_on>
+        <sys_id>b6990ce1837de610fa7e7230feaad3a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Download PDF</sys_name>
+        <sys_package display_value="Test scripting" source="x_1755686_test_scr">258c414583b96610fa7e7230feaad3c7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</sys_scope>
+        <sys_update_name>sys_ux_form_action_layout_item_b6990ce1837de610fa7e7230feaad3a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 13:12:43</sys_updated_on>
+        <table>x_1755686_test_scr_test_task</table>
+    </sys_ux_form_action_layout_item>
+</record_update>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script><![CDATA[function onCancel() {
+	var c = gel('cancelled');
+	c.value = "true";
+	console.log("confirmed..", sysid);
+	GlideDialogWindow.get().destroy();
+	return false;
+}
+function onConfirm() {
+	console.log("confirmed..", sysid);
+	GlideDialogWindow.get().destroy();
+	return false;
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_1755686_test_scr_test_mark_complete.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<!-- <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"> -->
+    <!-- <j:set var="sysid" value="${RP.getParameterValue('sysid')}"/> -->
+	<!-- <p>Click OK to Confirm.</p> -->
+	<!-- <g:dialog_buttons_ok_cancel ok="return onConfirm();" cancel="return onCancel()"/> -->
+<!-- </j:jelly> -->
+<p>Click OK to Confirm.</p>]]></html>
+        <name>test_mark_complete</name>
+        <processing_script><![CDATA[// if (cancelled == "false") {
+// 	gs.info("confirmed...");
+	// var grNewUser = new GlideRecord("sys_user");
+	// grNewUser.initialize();
+	// grNewUser.first_name = request.getParameter("first_name");
+	// grNewUser.last_name = request.getParameter("last_name");
+	// grNewUser.email = request.getParameter("email");
+	// grNewUser.phone = request.getParameter("phone");
+	// grNewUser.location = request.getParameter("location");
+	// var grNewUserSysId = grNewUser.insert();
+	// gs.addInfoMessage("Caller "+grNewUser.first_name+" "+grNewUser.last_name+" created.");
+	// response.sendRedirect("incident.do?sys_id=" + incidentSysID);
+
+
+    // var application = new GlideRecord('x_1755686_test_scr_test_task');
+    // application.get(application_sys_id);
+    // application.status = "Close Completed";
+    // application.update();
+    // var urlOnStack = GlideSession.get().getStack().bottom();
+    // response.sendRedirect(urlOnStack);
+// }]]></processing_script>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-29 16:17:46</sys_created_on>
+        <sys_id>71aee9f983396a10fa7e7230feaad3ef</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>test_mark_complete</sys_name>
+        <sys_package display_value="Test scripting" source="x_1755686_test_scr">258c414583b96610fa7e7230feaad3c7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</sys_scope>
+        <sys_update_name>sys_ui_page_71aee9f983396a10fa7e7230feaad3ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 13:59:38</sys_updated_on>
+    </sys_ui_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</application>
+        <file_path/>
+        <instance_id>9863785debec6e5456eafddacad0cd61</instance_id>
+        <instance_name>dev311432</instance_name>
+        <name>sys_ui_page_71aee9f983396a10fa7e7230feaad3ef</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function onCancel() {
+	var c = gel('cancelled');
+	c.value = "true";
+	console.log("confirmed..", sysid);
+	GlideDialogWindow.get().destroy();
+	return false;
+}
+function onConfirm() {
+	console.log("confirmed..", sysid);
+	GlideDialogWindow.get().destroy();
+	return false;
+}]]&gt;&lt;/client_script&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_1755686_test_scr_test_mark_complete.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;!-- &lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt; --&gt;
+    &lt;!-- &lt;j:set var="sysid" value="${RP.getParameterValue('sysid')}"/&gt; --&gt;
+	&lt;!-- &lt;p&gt;Click OK to Confirm.&lt;/p&gt; --&gt;
+	&lt;!-- &lt;g:dialog_buttons_ok_cancel ok="return onConfirm();" cancel="return onCancel()"/&gt; --&gt;
+&lt;!-- &lt;/j:jelly&gt; --&gt;
+&lt;p&gt;Click OK to Confirm.&lt;/p&gt;]]&gt;&lt;/html&gt;&lt;name&gt;test_mark_complete&lt;/name&gt;&lt;processing_script&gt;&lt;![CDATA[// if (cancelled == "false") {
+// 	gs.info("confirmed...");
+	// var grNewUser = new GlideRecord("sys_user");
+	// grNewUser.initialize();
+	// grNewUser.first_name = request.getParameter("first_name");
+	// grNewUser.last_name = request.getParameter("last_name");
+	// grNewUser.email = request.getParameter("email");
+	// grNewUser.phone = request.getParameter("phone");
+	// grNewUser.location = request.getParameter("location");
+	// var grNewUserSysId = grNewUser.insert();
+	// gs.addInfoMessage("Caller "+grNewUser.first_name+" "+grNewUser.last_name+" created.");
+	// response.sendRedirect("incident.do?sys_id=" + incidentSysID);
+
+
+    // var application = new GlideRecord('x_1755686_test_scr_test_task');
+    // application.get(application_sys_id);
+    // application.status = "Close Completed";
+    // application.update();
+    // var urlOnStack = GlideSession.get().getStack().bottom();
+    // response.sendRedirect(urlOnStack);
+// }]]&gt;&lt;/processing_script&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-29 16:17:46&lt;/sys_created_on&gt;&lt;sys_id&gt;71aee9f983396a10fa7e7230feaad3ef&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;test_mark_complete&lt;/sys_name&gt;&lt;sys_package display_value="Test scripting" source="x_1755686_test_scr"&gt;258c414583b96610fa7e7230feaad3c7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Test scripting"&gt;258c414583b96610fa7e7230feaad3c7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_71aee9f983396a10fa7e7230feaad3ef&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-03 13:59:38&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1994121751</payload_hash>
+        <record_name>test_mark_complete</record_name>
+        <reverted_from/>
+        <source>e18c414583b96610fa7e7230feaad3cc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 13:59:38</sys_created_on>
+        <sys_id>2cedc35f833d2210fa7e7230feaad3ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19736172f4f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 13:59:38</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>e0edc35fd13d2210ae6e4e6529c20fba</update_guid>
+        <update_guid_history>e0edc35fd13d2210ae6e4e6529c20fba:1994121751,b69d07df353d22108c25d54c7ad217e1:-441590075,69e8c7d7ff3d2210b6e55ba1e1767615:-1200437440,39d1423571b96a100b865fcc8ee7e196:-609779007,81b18ef1aeb96a10a49b938cb44f61ca:-1537487116,33d046b1dab96a1015f8c4c7671e2e2c:1439616449,ccefb57171b96a1000d2ddb52116aef2:-1867883333,79ceb5fdb5796a10c96084773b44c4d9:-1361227617,244e75fdb0796a1073331ba062b64246:-1859242849,5f8df1bd36796a105273bc0ae413affa:-643880578</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 14:07:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>1244f3eadf764cbc853b08f7a4869490</sys_id>
+        <sys_metadata>71aee9f983396a10fa7e7230feaad3ef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test_mark_complete</sys_name>
+        <sys_package display_value="Test scripting" source="x_1755686_test_scr">258c414583b96610fa7e7230feaad3c7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</sys_scope>
+        <sys_scope_delete display_value="">02c4d586cb6c4618907908bcf5774b90</sys_scope_delete>
+        <sys_update_name>sys_ui_page_71aee9f983396a10fa7e7230feaad3ef</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_71aee9f983396a10fa7e7230feaad3ef">2cedc35f833d2210fa7e7230feaad3ba</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 14:07:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Download pdf</name>
+        <order/>
+        <script><![CDATA[function onClick() {
+    var sysparm_table = "alm_transfer_order_line_task";
+    var sysparm_sys_id = "4e78682b98e4221055904c91e2b654b3";
+    var link='https://dev311432.service-now.com/'; // Replace with  sys_parm to get the instace name 
+    var url = link+sysparm_table + '.do?PDF&sys_id=' + sysparm_sys_id;
+    g_navigation.openPopup(url);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 09:09:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e8011f5d8339e610fa7e7230feaad359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Download pdf</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Test scripting" source="x_1755686_test_scr">258c414583b96610fa7e7230feaad3c7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</sys_scope>
+        <sys_update_name>sys_script_client_e8011f5d8339e610fa7e7230feaad359</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 09:09:32</sys_updated_on>
+        <table>alm_transfer_order_line_task</table>
+        <type/>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</application>
+        <file_path/>
+        <instance_id>9863785debec6e5456eafddacad0cd61</instance_id>
+        <instance_name>dev311432</instance_name>
+        <name>sys_script_client_e8011f5d8339e610fa7e7230feaad359</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Download pdf&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onClick() {
+    var sysparm_table = "alm_transfer_order_line_task";
+    var sysparm_sys_id = "4e78682b98e4221055904c91e2b654b3";
+    var link='https://dev311432.service-now.com/'; // Replace with  sys_parm to get the instace name 
+    var url = link+sysparm_table + '.do?PDF&amp;sys_id=' + sysparm_sys_id;
+    g_navigation.openPopup(url);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-28 09:09:32&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e8011f5d8339e610fa7e7230feaad359&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Download pdf&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Test scripting" source="x_1755686_test_scr"&gt;258c414583b96610fa7e7230feaad3c7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Test scripting"&gt;258c414583b96610fa7e7230feaad3c7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_e8011f5d8339e610fa7e7230feaad359&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-28 09:09:32&lt;/sys_updated_on&gt;&lt;table&gt;alm_transfer_order_line_task&lt;/table&gt;&lt;type/&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-643120406</payload_hash>
+        <record_name>Download pdf</record_name>
+        <reverted_from/>
+        <source>e18c414583b96610fa7e7230feaad3cc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 09:09:32</sys_created_on>
+        <sys_id>e8f19f9d8339e610fa7e7230feaad397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19716276f9b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 09:09:32</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>ecf19f9d4939e6103e9c6e70deb1e396</update_guid>
+        <update_guid_history>ecf19f9d4939e6103e9c6e70deb1e396:-643120406</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 15:52:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>1b2ae4fd8d25459ea82a2d48f0a4b624</sys_id>
+        <sys_metadata>e8011f5d8339e610fa7e7230feaad359</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Download pdf</sys_name>
+        <sys_package display_value="Test scripting" source="x_1755686_test_scr">258c414583b96610fa7e7230feaad3c7</sys_package>
+        <sys_parent display_value="Alm Transfer Order Line Task">9716106f98a0221055904c91e2b65420</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</sys_scope>
+        <sys_scope_delete display_value="">02c4d586cb6c4618907908bcf5774b90</sys_scope_delete>
+        <sys_update_name>sys_script_client_e8011f5d8339e610fa7e7230feaad359</sys_update_name>
+        <sys_update_version display_value="sys_script_client_e8011f5d8339e610fa7e7230feaad359">e8f19f9d8339e610fa7e7230feaad397</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 15:52:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

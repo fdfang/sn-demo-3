@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_1755686_test_scr_test_script_search_profile_default_spell_check_dictionary">a2e471198371e610fa7e7230feaad330</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="test-script Search Profile">38e4fdd51c71e610b35dc71b5ba20b36</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 02:23:05</sys_created_on>
+        <sys_id>2ee471198371e610fa7e7230feaad333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1755686_test_scr_test_script_search_profile_default_spell_check_dictionary.test-script Search Profile</sys_name>
+        <sys_package display_value="Test scripting" source="x_1755686_test_scr">258c414583b96610fa7e7230feaad3c7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_2ee471198371e610fa7e7230feaad333</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 02:23:05</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>
