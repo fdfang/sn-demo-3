@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_service_fulfillment_stage">
+    <sc_service_fulfillment_stage action="INSERT_OR_UPDATE">
+        <cat_item display_value="Request script">1bdc73288382e610fa7e7230feaad361</cat_item>
+        <name/>
+        <order>100</order>
+        <published_ref/>
+        <sys_class_name>sc_service_fulfillment_stage</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-07 14:47:25</sys_created_on>
+        <sys_id>532f77e88382e610fa7e7230feaad3f8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Test scripting" source="x_1755686_test_scr">258c414583b96610fa7e7230feaad3c7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</sys_scope>
+        <sys_update_name>sc_service_fulfillment_stage_532f77e88382e610fa7e7230feaad3f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-07 14:47:25</sys_updated_on>
+    </sc_service_fulfillment_stage>
+    <sys_translated_text action="delete_multiple" query="documentkey=532f77e88382e610fa7e7230feaad3f8"/>
+</record_update>
