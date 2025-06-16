@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($scope, $location) {
+  /* widget controller */
+  var c = this;
+	
+  // 按钮点击事件
+  c.onCustomAction = function() {		
+    window.location = "/nav_to.do?uri=sc_req_item.do%3Fsys_id=" + c.data.item_sysid;
+  };
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>resubmit_button</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>resubmit_button</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	
+	const requestSysId = $sp.getParameter('sys_id');
+  const TARGET_CAT_ITEM_SYS_ID = '1bdc73288382e610fa7e7230feaad361'; // 替换为目标Catalog Item的SysID
+
+  data.showButton = false;
+	
+  if (requestSysId) {
+    const gr = new GlideRecord('sc_req_item');
+		gr.addQuery('request', requestSysId);
+		gr.query();
+		while(gr.next()){
+			if (gr.cat_item == TARGET_CAT_ITEM_SYS_ID) {
+				data.showButton = true; // 满足条件时激活按钮
+				data.item_sysid = gr.sys_id + "";
+			}
+		}
+  }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-09 09:41:10</sys_created_on>
+        <sys_id>f04c09158302aa10fa7e7230feaad3de</sys_id>
+        <sys_mod_count>61</sys_mod_count>
+        <sys_name>resubmit_button</sys_name>
+        <sys_package display_value="Test scripting" source="x_1755686_test_scr">258c414583b96610fa7e7230feaad3c7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</sys_scope>
+        <sys_update_name>sp_widget_f04c09158302aa10fa7e7230feaad3de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-14 13:52:41</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  <button class="btn btn-primary" 
+        ng-click="c.onCustomAction()"
+        ng-if="c.data.showButton">
+  Modify Request
+</button>
+</div>
+]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>f04c09158302aa10fa7e7230feaad3de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-09 09:41:10</sys_created_on>
+        <sys_id>704c09158302aa10fa7e7230feaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-09 09:41:10</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

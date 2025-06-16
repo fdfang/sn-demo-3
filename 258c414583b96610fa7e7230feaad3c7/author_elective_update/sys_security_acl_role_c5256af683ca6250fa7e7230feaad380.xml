@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-14 08:06:14</sys_created_on>
+        <sys_id>c5256af683ca6250fa7e7230feaad380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1755686_test_scr.update_request</sys_name>
+        <sys_package display_value="Test scripting" source="x_1755686_test_scr">258c414583b96610fa7e7230feaad3c7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</sys_scope>
+        <sys_security_acl display_value="">e615ea72834e6250fa7e7230feaad301</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c5256af683ca6250fa7e7230feaad380</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-14 08:06:14</sys_updated_on>
+        <sys_user_role display_value="x_1755686_test_scr.update_request" name="x_1755686_test_scr.update_request">f438689a830eae10fa7e7230feaad3dd</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</application>
+        <file_path/>
+        <instance_id>9863785debec6e5456eafddacad0cd61</instance_id>
+        <instance_name>dev311432</instance_name>
+        <name>sys_security_acl_role_c5256af683ca6250fa7e7230feaad380</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-14 08:06:14</sys_created_on><sys_id>c5256af683ca6250fa7e7230feaad380</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_1755686_test_scr.update_request</sys_name><sys_package display_value="Test scripting" source="x_1755686_test_scr">258c414583b96610fa7e7230feaad3c7</sys_package><sys_policy/><sys_scope display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</sys_scope><sys_security_acl display_value="">e615ea72834e6250fa7e7230feaad301</sys_security_acl><sys_update_name>sys_security_acl_role_c5256af683ca6250fa7e7230feaad380</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-14 08:06:14</sys_updated_on><sys_user_role display_value="x_1755686_test_scr.update_request" name="x_1755686_test_scr.update_request">f438689a830eae10fa7e7230feaad3dd</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-738889668</payload_hash>
+        <record_name>.x_1755686_test_scr.update_request</record_name>
+        <reverted_from/>
+        <source>668a4b738335e210fa7e7230feaad3ac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-14 08:06:14</sys_created_on>
+        <sys_id>4376aeb2834e6250fa7e7230feaad3e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1976d7997f30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-14 08:06:14</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>4776aeb2fb4e625035d6a7ae742cc4e6</update_guid>
+        <update_guid_history>4776aeb2fb4e625035d6a7ae742cc4e6:-738889668</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_1755686_test_scr.update_request">8603b676838e6250fa7e7230feaad3d0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-14 09:01:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>31a9fd590abc42c99596cc00e72c4709</sys_id>
+        <sys_metadata>c5256af683ca6250fa7e7230feaad380</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1755686_test_scr.update_request</sys_name>
+        <sys_package display_value="Test scripting" source="x_1755686_test_scr">258c414583b96610fa7e7230feaad3c7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</sys_scope>
+        <sys_scope_delete display_value="">02c4d586cb6c4618907908bcf5774b90</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_c5256af683ca6250fa7e7230feaad380</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_c5256af683ca6250fa7e7230feaad380">4376aeb2834e6250fa7e7230feaad3e7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-14 09:01:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

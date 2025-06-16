@@ -9,7 +9,7 @@
         <choice_table/>
         <conversational_label/>
         <create_roles/>
-        <default_html_value><![CDATA[<p><button id="resubmit_btn" type="button">重新提交</button></p>]]></default_html_value>
+        <default_html_value/>
         <default_value/>
         <delete_roles/>
         <delivery_plan/>
@@ -42,14 +42,14 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>resubmit_button</name>
+        <name>upload_excel</name>
         <not_available_conversation>false</not_available_conversation>
         <order>300</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Resubmit button</question_text>
+        <question_text>Upload excel</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -73,24 +73,24 @@
         <scale_min>0</scale_min>
         <show_help>false</show_help>
         <show_help_on_load>false</show_help_on_load>
-        <sp_widget/>
+        <sp_widget display_value="Upload excel">df4e7417830ee250fa7e7230feaad394</sp_widget>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-06-09 09:18:08</sys_created_on>
-        <sys_id>b696055d83ce6a10fa7e7230feaad3e5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Resubmit button</sys_name>
+        <sys_created_on>2025-06-15 14:21:45</sys_created_on>
+        <sys_id>cc95851b834ee250fa7e7230feaad350</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Upload excel</sys_name>
         <sys_package display_value="Test scripting" source="x_1755686_test_scr">258c414583b96610fa7e7230feaad3c7</sys_package>
         <sys_policy/>
         <sys_scope display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</sys_scope>
-        <sys_update_name>item_option_new_b696055d83ce6a10fa7e7230feaad3e5</sys_update_name>
+        <sys_update_name>item_option_new_cc95851b834ee250fa7e7230feaad350</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-09 09:21:03</sys_updated_on>
+        <sys_updated_on>2025-06-15 15:39:02</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>23</type>
+        <type>14</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -106,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=b696055d83ce6a10fa7e7230feaad3e5"/>
-    <fx_price action="delete_multiple" query="id=b696055d83ce6a10fa7e7230feaad3e5"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=cc95851b834ee250fa7e7230feaad350"/>
+    <fx_price action="delete_multiple" query="id=cc95851b834ee250fa7e7230feaad350"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>b696055d83ce6a10fa7e7230feaad3e5</id>
+        <id>cc95851b834ee250fa7e7230feaad350</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-06-09 09:18:08</sys_created_on>
-        <sys_id>17f60d5d83ce6a10fa7e7230feaad389</sys_id>
+        <sys_created_on>2025-06-15 14:21:45</sys_created_on>
+        <sys_id>6106cd1b834ee250fa7e7230feaad36e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-09 09:18:08</sys_updated_on>
+        <sys_updated_on>2025-06-15 14:21:45</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -129,16 +129,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>b696055d83ce6a10fa7e7230feaad3e5</id>
+        <id>cc95851b834ee250fa7e7230feaad350</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-06-09 09:18:08</sys_created_on>
-        <sys_id>dbf60d5d83ce6a10fa7e7230feaad388</sys_id>
+        <sys_created_on>2025-06-15 14:21:45</sys_created_on>
+        <sys_id>2906cd1b834ee250fa7e7230feaad36d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-09 09:18:08</sys_updated_on>
+        <sys_updated_on>2025-06-15 14:21:45</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
