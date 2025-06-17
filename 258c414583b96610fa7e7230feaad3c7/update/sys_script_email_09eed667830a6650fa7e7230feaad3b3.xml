@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>request_item_link</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          // Add your code here
+	var portalSuffix = new sn_ex_emp_fd.FoundationNotificationUtil().getPortalSuffix();
+    var link = '/' + portalSuffix + 'nav_to.do?uri=sc_req_item.do%3Fsys_id=' + current.sys_id;
+
+    var attachLink = '<a href="' + link +  '">LINK</a>';
+	gs.info("attachLink: " + attachLink);
+    template.print(attachLink);
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-16 15:34:00</sys_created_on>
+        <sys_id>09eed667830a6650fa7e7230feaad3b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>request_item_link</sys_name>
+        <sys_package display_value="Test scripting" source="x_1755686_test_scr">258c414583b96610fa7e7230feaad3c7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</sys_scope>
+        <sys_update_name>sys_script_email_09eed667830a6650fa7e7230feaad3b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-16 15:34:00</sys_updated_on>
+    </sys_script_email>
+</record_update>
