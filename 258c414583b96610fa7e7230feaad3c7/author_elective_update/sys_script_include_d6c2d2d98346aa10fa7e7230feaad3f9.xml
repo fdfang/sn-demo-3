@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1755686_test_scr.ResubmitUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>ResubmitUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var ResubmitUtils = Class.create();
+ResubmitUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    cloneRequest: function() {
+		var sysId = this.getParameter('sysparm_buildingid');
+        var gr = new GlideRecord('sc_request');
+
+		var result = {};
+        if (gr.get(sysId)) {
+			gs.addInfoMessage("before state..." + gr.state);
+			var itemGr = new GlideRecord('sc_req_item');
+			itemGr.addQuery('request', sysId);
+			itemGr.query();
+			while(itemGr.next()){
+				gs.addInfoMessage("item_sysid" + itemGr.sys_id);
+				result['item_sysid'] = itemGr.sys_id + "";
+			}
+			
+            return JSON.stringify(result);
+        }
+        return null;
+    },
+    type: 'ResubmitUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-09 14:51:16</sys_created_on>
+        <sys_id>d6c2d2d98346aa10fa7e7230feaad3f9</sys_id>
+        <sys_mod_count>49</sys_mod_count>
+        <sys_name>ResubmitUtils</sys_name>
+        <sys_package display_value="Test scripting" source="x_1755686_test_scr">258c414583b96610fa7e7230feaad3c7</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</sys_scope>
+        <sys_update_name>sys_script_include_d6c2d2d98346aa10fa7e7230feaad3f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-14 11:07:33</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</application>
+        <file_path/>
+        <instance_id>9863785debec6e5456eafddacad0cd61</instance_id>
+        <instance_name>dev311432</instance_name>
+        <name>sys_script_include_d6c2d2d98346aa10fa7e7230feaad3f9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1755686_test_scr.ResubmitUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;ResubmitUtils&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var ResubmitUtils = Class.create();
+ResubmitUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    cloneRequest: function() {
+		var sysId = this.getParameter('sysparm_buildingid');
+        var gr = new GlideRecord('sc_request');
+
+		var result = {};
+        if (gr.get(sysId)) {
+			gs.addInfoMessage("before state..." + gr.state);
+			var itemGr = new GlideRecord('sc_req_item');
+			itemGr.addQuery('request', sysId);
+			itemGr.query();
+			while(itemGr.next()){
+				gs.addInfoMessage("item_sysid" + itemGr.sys_id);
+				result['item_sysid'] = itemGr.sys_id + "";
+			}
+			
+            return JSON.stringify(result);
+        }
+        return null;
+    },
+    type: 'ResubmitUtils'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-09 14:51:16&lt;/sys_created_on&gt;&lt;sys_id&gt;d6c2d2d98346aa10fa7e7230feaad3f9&lt;/sys_id&gt;&lt;sys_mod_count&gt;49&lt;/sys_mod_count&gt;&lt;sys_name&gt;ResubmitUtils&lt;/sys_name&gt;&lt;sys_package display_value="Test scripting" source="x_1755686_test_scr"&gt;258c414583b96610fa7e7230feaad3c7&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Test scripting"&gt;258c414583b96610fa7e7230feaad3c7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_d6c2d2d98346aa10fa7e7230feaad3f9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-14 11:07:33&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-937398175</payload_hash>
+        <record_name>ResubmitUtils</record_name>
+        <reverted_from/>
+        <source>668a4b738335e210fa7e7230feaad3ac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-14 11:07:33</sys_created_on>
+        <sys_id>87ff87fa8302a250fa7e7230feaad3d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1976e1f976e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-14 11:07:33</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>0fff87fae202a25070f3c96ccea25dd6</update_guid>
+        <update_guid_history>0fff87fae202a25070f3c96ccea25dd6:-937398175,fdbf037a1302a250f9e1a75147947c91:2144028108,00fe037abd02a250825ececd60ed2ca8:-1150474415,603dfeb22bce6250adb6e987801d1803:1315664746,e53afa420e06ae109e0d82c263aae3e1:-206101911,286841c666ca6e104978031256193e90:-1187276174,3138c9864fca6e106501ef58d1d1e492:59768154,6de7054636ca6e10f4d2b91b2330cbf8:667065713,f487c1466cca6e10b5baf4061f9cb2de:-855901418,3766c1060fca6e104a4cad394b690254:641350961,0555c5828cca6e1024b613cae160b25d:1776384060,cbe4c582ecca6e10da8ef20fa2155130:709798756,d4338102f7ca6e100f374efbf5546806:-76013603,7510410e078a6e109bc0dbc90f1eafbf:1367600486,827e740a398a6e10ac3a0041aa725e70:-1464221093,d6cdb00a508a6e104d5ace3489eefacc:-644195768,732d34c6a08a6e1053ed5365f0232079:-1424493190,61ccf886c28a6e10026106d356629c93:1597098872,0a4a74c2068a6e10e77171f7f5b4afaf:36953434,e7387c42f58a6e10e8876bb4f5827424:-1937473531,1f62fdf9a28a2e10222b2a806a0d47cd:977169115,5d7f25f5268a2e1059d444efc68981da:889066097,d33ce9f1c38a2e10841f8c8b28666ebd:-1790537079,8da9697dc74a2e107983b12ec98e56ac:2067260505,136a336996422e10ad763c487be93bcf:-1711479100,3948f76584422e1092e06306c6c43064:981515877,a7c6b76132422e10f3f16d41f7478e2a:-1057166033,c8c6f325f7422e10aaf62d667bc90a10:-842124326,a3d53f6153422e102b9fd6cec1cd712e:990676821,ddd4376149422e103dbaf2a25bf50d95:-234423702,7e9333210a422e10be2306c00d8fe776:2142480492,1ce277ad08022e106638a1e469fd7292:1974049991,b060b3e9a8022e10fcc40703d77fd073:-1240686504,401adf6d218eea1074891d4c84ea4250:728006441,5e19132d958eea10b0d1c53693060f95:1462862703,8e289be96d8eea10dc35665596759946:236996894,5a2757a9f58eea106651e3791a0c5df9:-947901027,eb169b29018eea10506d019589a6d6b1:-1493140293,8dcfa611d60aaa105a197eff7605e6bc:-947901027,7a1faaddf5c6aa10e3ddbf5b87dc3112:-1984467018,9dbe6a5dafc6aa108c516756892f655d:1561260980,d5fca25d8bc6aa10120b404fd85ea3fa:1454512604,2c2ca2d998c6aa10a2e6812e84436efd:656446841,ff77e29545c6aa102616b6c1be396bb4:-265272735,a4e56ed18ec6aa1014d577c14ea4b200:2144053583,3533eaddfd86aa10cecb89e2d9199b9d:-427962898,ead2aa1d4c86aa10cc842cddc9580dfe:176404317,da82eadd1386aa1040dfbdc98c6f938d:-81129610,7e42aa9d8a86aa107549607798a67645:1258514083,9f33d6998246aa101b45f1615d6662ee:-558053499</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-18 01:30:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>1a4537624cd843608743dd9648db0840</sys_id>
+        <sys_metadata>d6c2d2d98346aa10fa7e7230feaad3f9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ResubmitUtils</sys_name>
+        <sys_package display_value="Test scripting" source="x_1755686_test_scr">258c414583b96610fa7e7230feaad3c7</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</sys_scope>
+        <sys_scope_delete display_value="">02c4d586cb6c4618907908bcf5774b90</sys_scope_delete>
+        <sys_update_name>sys_script_include_d6c2d2d98346aa10fa7e7230feaad3f9</sys_update_name>
+        <sys_update_version display_value="sys_script_include_d6c2d2d98346aa10fa7e7230feaad3f9">87ff87fa8302a250fa7e7230feaad3d7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-18 01:30:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
