@@ -30,17 +30,19 @@
   /* e.g., data.table = $sp.getValue('table'); */
 	
 	const requestSysId = $sp.getParameter('sys_id');
-  const TARGET_CAT_ITEM_SYS_ID = '1bdc73288382e610fa7e7230feaad361'; // 替换为目标Catalog Item的SysID
-
-  data.showButton = false;
+	// Request sript catalog item sys_id
+  const TARGET_CAT_ITEM_SYS_ID = '1bdc73288382e610fa7e7230feaad361'; 
+	
+	data.showButton = false;
 	
   if (requestSysId) {
     const gr = new GlideRecord('sc_req_item');
 		gr.addQuery('request', requestSysId);
 		gr.query();
 		while(gr.next()){
-			if (gr.cat_item == TARGET_CAT_ITEM_SYS_ID) {
-				data.showButton = true; // 满足条件时激活按钮
+			// only disply on Request sript catalog item page and the state is pending
+			if (gr.cat_item == TARGET_CAT_ITEM_SYS_ID && (gr.state == -5)) {
+				data.showButton = true;
 				data.item_sysid = gr.sys_id + "";
 			}
 		}
@@ -51,14 +53,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-09 09:41:10</sys_created_on>
         <sys_id>f04c09158302aa10fa7e7230feaad3de</sys_id>
-        <sys_mod_count>61</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_name>resubmit_button</sys_name>
         <sys_package display_value="Test scripting" source="x_1755686_test_scr">258c414583b96610fa7e7230feaad3c7</sys_package>
         <sys_policy/>
         <sys_scope display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</sys_scope>
         <sys_update_name>sp_widget_f04c09158302aa10fa7e7230feaad3de</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-14 13:52:41</sys_updated_on>
+        <sys_updated_on>2025-06-17 17:03:12</sys_updated_on>
         <template><![CDATA[<div>
 <!-- your widget template -->
   <button class="btn btn-primary" 

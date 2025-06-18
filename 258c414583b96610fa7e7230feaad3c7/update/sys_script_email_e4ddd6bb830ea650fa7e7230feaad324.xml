@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>add_link</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          // Add your code here
+		var sysid = current.sys_id;
+		var instance = gs.getProperty('instance_name');
+		var link = 'https://' + instance + '.service-now.com/nav_to.do?uri=sc_req_item.do%3Fsys_id=' + sysid;
+		var attachLink = '<a href="' + link +  '">LINK</a>';
+		template.print(attachLink);
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 10:03:16</sys_created_on>
+        <sys_id>e4ddd6bb830ea650fa7e7230feaad324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>add_link</sys_name>
+        <sys_package display_value="Test scripting" source="x_1755686_test_scr">258c414583b96610fa7e7230feaad3c7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test scripting">258c414583b96610fa7e7230feaad3c7</sys_scope>
+        <sys_update_name>sys_script_email_e4ddd6bb830ea650fa7e7230feaad324</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 10:03:16</sys_updated_on>
+    </sys_script_email>
+</record_update>
